@@ -20,7 +20,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'e/', include('example.urls')),
     path(r'wombo/', include('wombat.urls')),
-    path(r'vincexe', include('vince.urls')),
+    path(r'vincexe/', include('vince.urls')),
     #path(r'yourownurl/', include('appname.urls')),
     #####WHATEVER
 ]
+
+git clone https://github.com/<vvizz1>/<code2120_5115864>.git
