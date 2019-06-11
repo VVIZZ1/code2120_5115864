@@ -22,7 +22,7 @@ urlpatterns = [
     path(r'wombo/', include('wombat.urls')),
     path(r'vincexe/', include('vince.urls')),
     #path(r'yourownurl/', include('appname.urls')),
-    #####WHATEVER
+    ####WHATEVER
 ]
 
-git clone https://github.com/<vvizz1>/<code2120_5115864>.git
+#git clone https://github.com/vvizz1/code2120_5115864.git
