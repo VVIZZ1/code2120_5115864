@@ -3,6 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 import json
 from .models import *
+import os
 
 # Create your views here.
 
@@ -25,6 +26,12 @@ def example_post(request):
 	if request.method == "POST":
 		try:
 			data = request.POST["data"]
+			jsob = jsob.loads(data)
+
+			index = 0
+			for i in jsob["demo"]:
+				index += 1
+			#index = jsob["var"]+str(index)
 			return JsonResponse({"log":log})
 		except Exception as e:
 			exc_type, exc_obj, exc_tb = sys.exc_info()
