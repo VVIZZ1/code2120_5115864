@@ -1,0 +1,63 @@
+#code2120_5115864_Notes
+
+###########################
+#     W02: 13/06/2019     #
+###########################
+
+*Def: Object-Oriented Programmming = {
+	"A software programming methodology that separates the software development into different objects contraining data and methods in a logical manner."
+}
+
+#W03:1.00 - "Objects"
+
+			 |Point|  >>> |Attribut| / |Methods|
+					
+Geometry >>> |Curve|  >>> |Attribut| / |Methods|
+				
+			 |Cube |  >>> |Attribut| / |Methods|
+
+#W03:1.01 - "Objects"
+
+Geometry >>> |Shpere|  >>> |Attribut| / |Methods|
+	*Attribute: Center Cordinates, Diameter, Circumference
+	*Methods: PointAt, Translate, Rotate
+
+#W03:1.02 - "Class and Structures"
+
+ 					   |Shpere|
+					
+  	|Shpere Class| >>> |Shpere|
+|Attribut| / |Methods|		
+			 	   	   |Shpere|
+
+#W03:1.03 - "Inheritance"
+					
+  	|Geometry Base Class| 		>>> |Shpere Class|
+   |Attribut|  / |Methods|		|Attribut|  / |Methods|	
+			 	   	   			>>> |Cube Class|
+			 	   	   			|Attribut|  / |Methods|
+
+#W03:2.00 "Variable"
+
+*Def: Variable = {
+	"Identifiers that point to a reserved space in memory in which we can store values or data"
+}
+
+#W03:2.01 "Variable"
+
+|Variable| >>> |Memory|
+|Bucket| >>> |Object/value|
+
+////////////////////////////
+
+e.g.1 |Bucket| >>> |Number|
+
+e.g.2 |Bucket| >>> |Point|
+
+e.g.3 |Bucket| >>> |String|
+
+#W03:2.02 "Number Types"
+
+Integer = Whole number aka 1,2,-1
+
+Float = Decimal number, floating point number aka 0.1,4.5,-1.3
